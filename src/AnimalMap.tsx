@@ -67,10 +67,14 @@ const zooData: { [key: string]: string[] } = {
 };
 
 const AnimalMap = () => {
+    const API = import.meta.env.REACT_APP_GOOGLE_MAPS_API_KEY;
+    if (!API) {
+        throw new Error("Google Maps API Key is missing");
+      }
     const [zooLocate, setZooLocate] = useState<{ name: string; lat: number; lng: number }[]>([]);
     const { animal } = useParams<{ animal: string }>();
     const { isLoaded } = useLoadScript({
-        googleMapsApiKey: 'AIzaSyBhPolsU4YvypCxZJXUa4nMAWLVFoR4c6Y'
+        googleMapsApiKey: API,
     });
 
     const zooName = animal && zooData[animal] ? zooData[animal] : [];
