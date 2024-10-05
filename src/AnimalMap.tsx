@@ -67,7 +67,7 @@ const zooData: { [key: string]: string[] } = {
 };
 
 const AnimalMap = () => {
-    const API = import.meta.env.REACT_APP_GOOGLE_MAPS_API_KEY;
+    const API = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
     if (!API) {
         throw new Error("Google Maps API Key is missing");
       }
