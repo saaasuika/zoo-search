@@ -42,7 +42,7 @@ const AnimalList = () => {
         <div className="animal-list">
             <div className="pic">
                 <img className='animal_pic'
-                    src="src/image/alpaca.png"
+                    src="public/image/alpaca.png"
                     alt="アルパカ"
                     onClick={handleAlpacaClick} 
                 /> 
@@ -50,7 +50,7 @@ const AnimalList = () => {
             </div>
             <div className="pic">
                 <img className='animal_pic'
-                    src="src/image/rabbit.png"
+                    src="public/image/rabbit.png"
                     alt="ウサギ"
                     onClick={handleRabbitClick} 
                 />
@@ -58,7 +58,7 @@ const AnimalList = () => {
             </div> 
             <div className="pic">
                 <img className='animal_pic'
-                    src="src/image/horse.png"
+                    src="public/image/horse.png"
                     alt="ウマ"
                     onClick={handleHorseClick} 
                 /> 
@@ -66,7 +66,7 @@ const AnimalList = () => {
             </div>
             <div className="pic">
                 <img className='animal_pic'
-                    src="src/image/bear.png"
+                    src="public/image/bear.png"
                     alt="クマ"
                     onClick={handleBearClick} 
                 /> 
@@ -74,7 +74,7 @@ const AnimalList = () => {
             </div>
             <div className="pic">
                 <img className='animal_pic'
-                    src="src/image/koala.png"
+                    src="public/image/koala.png"
                     alt="コアラ"
                     onClick={handleKoalaClick} 
                 /> 
@@ -82,7 +82,7 @@ const AnimalList = () => {
             </div>
             <div className="pic">
                 <img className='animal_pic'
-                    src="src/image/gorilla.png"
+                    src="public/image/gorilla.png"
                     alt="ゴリラ"
                     onClick={handleGorillaClick} 
                 /> 
@@ -90,7 +90,7 @@ const AnimalList = () => {
             </div>
             <div className="pic">
                 <img className='animal_pic'
-                    src="src/image/serval.png"
+                    src="public/image/serval.png"
                     alt="サーバル"
                     onClick={handleServalClick} 
                 />
@@ -98,7 +98,7 @@ const AnimalList = () => {
             </div>
             <div className="pic">
                 <img className='animal_pic'
-                    src="src/image/monkey.png"
+                    src="public/image/monkey.png"
                     alt="サル"
                     onClick={handleMonkeyClick} 
                 /> 
@@ -106,7 +106,7 @@ const AnimalList = () => {
             </div>
             <div className="pic">
                 <img className='animal_pic'
-                    src="src/image/panda.png"
+                    src="public/image/panda.png"
                     alt="パンダ"
                     onClick={handlePandaClick} 
                     
@@ -115,7 +115,7 @@ const AnimalList = () => {
             </div>  
             <div className="pic">
                 <img className='animal_pic'
-                    src="src/image/sheep.png"
+                    src="public/image/sheep.png"
                     alt="ヒツジ"
                     onClick={handleSheepClick} 
                 /> 
@@ -123,7 +123,7 @@ const AnimalList = () => {
             </div>
             <div className="pic">
                 <img className='animal_pic'
-                    src="src/image/lion.png"
+                    src="public/image/lion.png"
                     alt="ライオン"
                     onClick={handleLionClick} 
                 /> 
