@@ -13,7 +13,7 @@ const App = () => {
                 <Explain/>
                 <AnimalList/>
                 <Routes>
-                    <Route path="/:animal" element={<AnimalMap />} /> 
+                    <Route path="/zoo-search/:animal" element={<AnimalMap />} /> 
                 </Routes>
             </div>
         </Router>

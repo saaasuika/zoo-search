@@ -4,37 +4,37 @@ const AnimalList = () => {
     const navigate = useNavigate();
 
     const handlePandaClick = () => {
-        navigate('/panda');
+        navigate('/zoo-search/panda');
     };
     const handleRabbitClick = () => {
-        navigate('/rabbit');
+        navigate('/zoo-search/rabbit');
     };
     const handleServalClick = () => {
-        navigate('/serval');
+        navigate('/zoo-search/serval');
     };
     const handleHorseClick = () => {
-        navigate('/horse');
+        navigate('/zoo-search/horse');
     };
     const handleSheepClick = () => {
-        navigate('/sheep');
+        navigate('/zoo-search/sheep');
     };
     const handleAlpacaClick = () => {
-        navigate('/alpaca');
+        navigate('/zoo-search/alpaca');
     };
     const handleLionClick = () => {
-        navigate('/lion');
+        navigate('/zoo-search/lion');
     };
     const handleKoalaClick = () => {
-        navigate('/koala');
+        navigate('/zoo-search/koala');
     };
     const handleBearClick = () => {
-        navigate('/bear');
+        navigate('/zoo-search/bear');
     };
     const handleGorillaClick = () => {
-        navigate('/gorilla');
+        navigate('/zoo-search/gorilla');
     };
     const handleMonkeyClick = () => {
-        navigate('/monkey');
+        navigate('/zoo-search/monkey');
     };
 
 
