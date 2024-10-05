@@ -6,9 +6,13 @@
   "homepage": "https://github.com/saaasuika/zoo-search/",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc -b && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "rm": "rm -rf docs",
+    "mv": "mv dist docs", 
+    "git": "git add . && git commit && git push origin master",
+    "deploy": "npm run rm && npm run build && npm run mv && npm run git"
   },
   "dependencies": {
     "@googlemaps/react-wrapper": "^1.1.42",
