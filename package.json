@@ -3,11 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/saaasuika/weather-forecast/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "rm": "rm -rf docs",
+    "mv": "mv dist docs", 
+    "git": "git add . && git commit && git push origin master",
+    "deploy": "npm run rm && npm run build && npm run mv && npm run git"
   },
   "dependencies": {
     "@googlemaps/react-wrapper": "^1.1.42",
